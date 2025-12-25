@@ -3229,6 +3229,7 @@
   {
     "type": "stored_definitions",
     "named": true,
+    "root": true,
     "fields": {
       "storedDefinitions": {
         "multiple": true,
@@ -3645,7 +3646,8 @@
   },
   {
     "type": "BLOCK_COMMENT",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "BOM",
@@ -3705,7 +3707,8 @@
   },
   {
     "type": "comment",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "connect",
