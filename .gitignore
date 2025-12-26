@@ -13,6 +13,7 @@ Package.swift
 prebuilds/
 pyproject.toml
 setup.py
+src/
 target/
 
 # Build artifacts
