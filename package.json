@@ -6,7 +6,7 @@
   "types": "bindings/node",
   "license": "SEE LICENSE IN OSMC-License.txt",
   "engines": {
-    "node": "20"
+    "node": ">=20"
   },
   "scripts": {
     "build": "tree-sitter generate && tree-sitter build --wasm --docker .",
