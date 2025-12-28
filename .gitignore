@@ -4,9 +4,7 @@ Cargo.lock
 
 # Node artifacts
 build/
-prebuilds/
 node_modules/
-package-lock.json
 
 # Swift artifacts
 .build/
@@ -40,7 +38,6 @@ zig-out/
 /examples/*/
 
 # Grammar volatiles
-*.wasm
 *.obj
 *.o
 

@@ -9,9 +9,9 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "tree-sitter generate && tree-sitter build --wasm --docker .",
+    "generate": "tree-sitter generate",
+    "build": "npm run generate && tree-sitter build --wasm --docker .",
     "test": "tree-sitter test",
-    "preinstall": "tree-sitter generate",
     "install": "node-gyp-build",
     "prebuildify": "prebuildify --napi --strip",
     "sync-metadata": "node scripts/sync-metadata.js",
